@@ -53,6 +53,10 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	color: $theme-text-color-secondary;
 	font-family: $text-font;
+	&.dark-version{
+		background-color: #292929;
+		color: #fff;
+	}
 }
 
 h1,
